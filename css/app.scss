@@ -6,10 +6,22 @@ body{
 	margin: 0;
 }
 
-// Some Style Variables
-$primary-color: #36465f;
-$secondary-color: #464646;
-$error: #de3535;
+/* Color styles */
+$brown: rgba(74, 48, 31, 1);
+$darkest-green: rgba(41, 49, 40, 1);
+$darker-green: rgba(34, 69, 31, 1);
+$green: rgba(45, 131, 37, 1);
+$light-green: rgba(208, 252, 204, 1);
+$lightest-green: rgba(243, 252, 238, 1);
+$link-light: rgba(83, 89, 236, 1);
+$link-dark: rgba(83, 190, 236, 1);
+$neutral--background: rgba(255, 253, 244, 1);
+$neutral--black: rgba(9, 11, 9, 1);
+$neutral--dark-gray: rgba(49, 52, 49, 1);
+$yellow--yell-orange: rgba(255, 196, 62, 1);
+
+/* Effect styles */
+$light--shadow:  0px 2px 2px rgba(0, 0, 0, 0.1);
 
 @import 'typography';
 @import 'header';
