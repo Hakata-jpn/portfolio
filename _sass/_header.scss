@@ -1,24 +1,26 @@
-h2 {
-    color: $brown;    
+.nav-container{
+    h2 {
+        color: $brown;    
+    }
+    
+    li a {
+        font-family: "Figtree", sans-serif;
+        font-weight: 700;
+        font-size: $h5;
+        color: $darker-green;
+    }
+    
+    // TODO: Match size and positioning to Figma Doc
+    .btn {
+        color: $darker-green;
+    }
+    
+    .navbar-toggler button:focus {
+        border: 0px;
+        box-shadow: 0px none;
+    }
+    
+    .nav-link {
+        color: $darker-green;
+    }    
 }
-
-li a {
-    font-family: "Figtree", sans-serif;
-    font-weight: 700;
-    color: $darker-green;
-}
-
-// TODO: Match size and positioning to Figma Doc
-.hamburger {
-    color: $darker-green;
-}
-
-.navbar-toggler button:focus {
-    border: 0px;
-    box-shadow: 0px none;
-}
-
-.nav-link {
-    color: $darker-green;
-}
-
