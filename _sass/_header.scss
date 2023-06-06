@@ -2,16 +2,17 @@ h2 {
     color: $brown;    
 }
 
-nav li {
-    list-style: none;
-}
-
-nav li a{
+li a {
+    font-family: "Figtree", sans-serif;
     font-weight: 700;
-    color: $darkest-green;
-    text-decoration: none;
+    color: $darker-green;
 }
 
-nav button {
-    color: $brown;
+.hamburger {
+    color: $darker-green;
 }
+
+.nav-link {
+    color: $darker-green;
+}
+
