@@ -1,3 +1,13 @@
-.navbar {
-    
+h2 {
+    color: $brown;    
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a{
+    font-weight: 700;
+    color: $darkest-green;
+    text-decoration: none;
 }
