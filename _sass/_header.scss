@@ -8,8 +8,14 @@ li a {
     color: $darker-green;
 }
 
+// TODO: Match size and positioning to Figma Doc
 .hamburger {
     color: $darker-green;
+}
+
+.navbar-toggler button:focus {
+    border: 0px;
+    box-shadow: 0px none;
 }
 
 .nav-link {
