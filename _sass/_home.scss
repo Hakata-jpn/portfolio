@@ -23,4 +23,14 @@
         text-align: right;
         color: $link-light;
     }
+
+    @media only screen and (min-width: 992px) {
+        h1 {
+            font-size: $h1--desktop;
+        }
+
+        .intro-blurb p, a {
+            font-size: $p-large--desktop;
+        }
+    }
 }
