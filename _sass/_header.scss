@@ -7,12 +7,15 @@
         padding: .5em;
     }
     
-    h2 {
+    .navbar-brand {
         color: $brown;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 400;
+        font-size: $h2;
     }
     
     li a {
-        font-family: "Figtree", sans-serif;
+        font-family: "Figtree", serif;
         font-weight: 700;
         font-size: $h6;
         color: $darker-green;
@@ -43,7 +46,7 @@
             padding: 1.25em 0 1.25em 0;
         }
 
-        h2 {
+        .navbar-brand {
             font-size: $h2--desktop;
         }
 
