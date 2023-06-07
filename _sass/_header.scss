@@ -1,15 +1,23 @@
 .nav-container{
+    nav {
+        background-color: $background;
+    }
+
+    .container {
+        padding: .5em;
+    }
+    
     h2 {
-        color: $brown;    
+        color: $brown;
     }
     
     li a {
         font-family: "Figtree", sans-serif;
         font-weight: 700;
-        font-size: $h5;
+        font-size: $h6;
         color: $darker-green;
     }
-    
+
     // TODO: Match size and positioning to Figma Doc
     .btn {
         color: $darker-green;
@@ -22,5 +30,25 @@
     
     .nav-link {
         color: $darker-green;
-    }    
+    }
+
+    @media only screen and (min-width: 768px) {
+        .container {
+            padding: .75em 0 .75em 0;
+        }
+    }
+
+    @media only screen and (min-width: 992px) {
+        .container {
+            padding: 1.25em 0 1.25em 0;
+        }
+
+        h2 {
+            font-size: $h2--desktop;
+        }
+
+        li a {
+            font-size: $h5--desktop;
+        }
+    }
 }
