@@ -4,7 +4,10 @@
     h1 {
         font-size: $h1;
         color: $brown;
-        padding-top: 1em;
+    }
+
+    .home-container {
+        padding: 2em 0 2em 0;
     }
 
     .intro-blurb {
@@ -24,6 +27,49 @@
         color: $link-light;
     }
 
+    // ABOUT ME section
+    .aboutme-section {
+        background-color: $darker-green;
+        padding: 2em 1em 2em 1em;
+
+        h2 {
+            color: $background;
+        }
+
+        h3 {
+            color: $background;
+        }
+
+        p {
+            color: $light-green;
+        }
+
+        a {
+            font-weight: 400;
+            color: $link-dark;
+        }
+
+        .resume-download {
+            background-color: $yell-orange;
+            color: $darkest-green;
+            font-weight: bold;
+            padding: .5em;
+            border-radius: .75em;
+            font-size: $h6;
+        }
+
+        li {
+            font-weight: bold;
+            color: $background;
+            list-style: none;
+            display: inline-block;
+        }
+
+
+
+    }
+
+    // General Media Queries
     @media only screen and (min-width: 992px) {
         h1 {
             font-size: $h1--desktop;

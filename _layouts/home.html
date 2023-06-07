@@ -5,7 +5,7 @@
 	
 	<body class="home-container">
 		{% include heading.html %}
-		<section id="home">
+		<section class="home-container" id="home">
 			<div class="container">
 				<div class="row justify-content-center align-items-center">
 					<div class="introduction col-10 col-lg-8 p-0">
@@ -20,8 +20,24 @@
 				</div>
 			</div>
 		</section>
-		<section id="about">
-			{{ page.content }}
+		<section class="aboutme-section w-100" id="aboutme">
+			<div class="container p-0">
+				<h2>About Me</h2>
+				<p>{{ page.content }}</p>
+				<a class="btn w-100 resume-download" href="#">Download Resume (PDF)</a>
+				<div class="techonolgies-used px-0">
+					<h3 class="container">Technologies I use!</h3>
+						<ul>
+							<li class="col-6">Figma</li>
+							<li class="col-6">Axure RP</li>
+							<li class="col-6">Adobe CC</li>
+							<li class="col-6">JIRA</li>
+							<li class="col-6">Miro</li>
+							<li class="col-6">HTML/CSS/JS</li>
+							<li class="col-6">GitHub</li>
+						</ul>
+				</div>
+			</div>
 		</section>
 		{% include footer.html %}
 	</body>
