@@ -24,11 +24,13 @@
 		</section>
 
 		<!-- ABOUT ME SECTION -->
-		<section class="aboutme-section w-100" id="aboutme">
+		<section class="aboutme-section align-items-center w-100" id="aboutme">
 			<div class="container col-md-10 p-0">
 				<h2>About Me</h2>
-				<p>{{ page.content }}</p>
-				<a class="btn w-100 resume-download" href="#">Download Resume (PDF)</a>
+					<div class="col-lg-8">
+						<p>{{ page.content }}</p>
+						<a class="btn w-100 resume-download" href="#">Download Resume (PDF)</a>
+					</div>
 			</div>
 			{% include technologies-used.html %}
 		</section>
