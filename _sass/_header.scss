@@ -11,9 +11,13 @@
         color: $brown;
         font-family: 'DM Serif Display', serif;
         font-weight: 400;
-        font-size: $h2;
+        font-size: $h3;
     }
     
+    .nav-link:hover {
+        color: $link-light;
+    }
+
     li a {
         font-family: "Figtree", serif;
         font-weight: 700;
@@ -21,7 +25,6 @@
         color: $darker-green;
     }
 
-    // TODO: Match size and positioning to Figma Doc
     .btn {
         color: $darker-green;
     }

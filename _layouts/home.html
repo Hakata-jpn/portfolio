@@ -3,9 +3,23 @@
 
 {% include head.html %}
 	
-	<body>
+	<body class="home-container">
 		{% include heading.html %}
-
+		<section id="home">
+			<div class="container">
+				<div class="row justify-content-center align-items-center">
+					<div class="introduction col-10 p-0">
+						<h1 class="text-center">{{ page.introduction }}</h1>
+						<div class="intro-blurb">
+							<p>{{ page.intro-blurb }}</p>
+							<div class="w-100 d-flex justify-content-end">
+								<a href="#" >View All Projects →</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		{% include footer.html %}
 	</body>
 </html>

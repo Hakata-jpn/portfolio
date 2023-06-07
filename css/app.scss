@@ -30,6 +30,8 @@ body {
 	background-color: $background;
 }
 
+@import 'reset';
 @import 'typography';
 @import 'header';
 @import 'footer';
+@import 'home';
