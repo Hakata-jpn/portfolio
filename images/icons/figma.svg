@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#1ABCFE;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#0ACF83;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FF7262;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#F24E1E;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#A259FF;}
+</style>
+<g>
+	<path class="st0" d="M400,400c0-73.64,59.7-133.33,133.33-133.33S666.67,326.36,666.67,400s-59.7,133.33-133.33,133.33
+		S400,473.64,400,400z"/>
+	<path class="st1" d="M133.33,666.67c0-73.64,59.7-133.33,133.33-133.33H400v133.33C400,740.3,340.3,800,266.67,800
+		C193.03,800,133.33,740.3,133.33,666.67z"/>
+	<path class="st2" d="M400,0v266.67h133.33c73.64,0,133.33-59.7,133.33-133.33C666.67,59.7,606.97,0,533.33,0H400z"/>
+	<path class="st3" d="M133.33,133.33c0,73.64,59.7,133.33,133.33,133.33H400V0H266.67C193.03,0,133.33,59.7,133.33,133.33z"/>
+	<path class="st4" d="M133.33,400c0,73.64,59.7,133.33,133.33,133.33H400V266.67H266.67C193.03,266.67,133.33,326.36,133.33,400z"/>
+</g>
+</svg>

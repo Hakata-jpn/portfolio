@@ -29,23 +29,8 @@
 				<h2>About Me</h2>
 				<p>{{ page.content }}</p>
 				<a class="btn w-100 resume-download" href="#">Download Resume (PDF)</a>
-				<div class="techonolgies-used">
-					<h3>Technologies I use!</h3>
-						<ul class="container px-0">
-							<div class="row">
-								<li class="col-6">Figma</li>
-								<li class="col-6">Axure RP</li>
-								<li class="col-6">Adobe CC</li>
-								<li class="col-6">JIRA</li>
-							</div>
-							<div class="row">
-								<li class="col-6">Miro</li>
-								<li class="col-6">HTML/CSS/JS</li>
-								<li class="col-6">GitHub</li>
-							</div>
-						</ul>
-				</div>
 			</div>
+			{% include technologies-used.html %}
 		</section>
 		{% include footer.html %}
 	</body>
