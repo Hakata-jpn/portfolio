@@ -58,10 +58,38 @@
             font-size: $h6;
         }
 
+        //Technologies used section starts here
+
+        .technolgies-used {
+            padding-top: 1.5em;
+        }
+
+        .technolgies-used h3 {
+            margin-bottom: 1em;
+        }
+
+        .tech-row {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 100%;
+        }
+        
+
         li {
             font-weight: bold;
+            font-size: $h4;
             color: $light-green;
             list-style: none;
+            margin-bottom: .5em;
+            display: inline-flex;
+            flex-direction: column;
+        }
+
+        li img {
+            max-width: 16px;
+            vertical-align: middle;
+            margin-right: .25em;
         }
 
 
