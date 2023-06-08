@@ -24,15 +24,17 @@
 		</section>
 
 		<!-- ABOUT ME SECTION -->
-		<section class="aboutme-section align-items-center w-100" id="aboutme">
-			<div class="container col-md-10 p-0">
-				<h2>About Me</h2>
-					<div class="col-lg-8">
-						<p>{{ page.content }}</p>
-						<a class="btn w-100 resume-download" href="#">Download Resume (PDF)</a>
-					</div>
+		<section class="aboutme-section" id="aboutme">
+			<div class="container d-flex flex-column col-md-10">
+				<div class="p-0 container">
+					<h2 class="col-lg-10 d-flex w-100">About Me</h2>
+						<div class="col-lg-8 container aboutme-content">
+							<p>{{ page.content }}</p>
+							<a class="btn w-100 resume-download" href="#">Download Resume (PDF)</a>
+						</div>
+				</div>
+				{% include technologies-used.html %}
 			</div>
-			{% include technologies-used.html %}
 		</section>
 
 		{% include footer.html %}

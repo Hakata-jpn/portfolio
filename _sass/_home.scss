@@ -1,6 +1,10 @@
 .home-container {
     background-color: $background;
 
+    .container {
+        padding: 0;
+    }
+
     h1 {
         font-size: $h1;
         color: $brown;
@@ -47,6 +51,7 @@
         a {
             font-weight: 400;
             color: $link-dark;
+            font-size: $p;
         }
 
         .resume-download {
@@ -62,6 +67,7 @@
 
         .technolgies-used {
             padding: 1.5em 0 0 0;
+            margin: 0;
         }
 
         .technolgies-used h3 {
