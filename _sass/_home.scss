@@ -156,5 +156,14 @@
             border-radius: .5em;
             box-shadow: $light--shadow;
         }
+
+        .contact-blurb {
+            color: $green;
+        }
+
+        .contact-link {
+            color: $link-light;
+            font-size: $h6;
+        }
     }
 }
