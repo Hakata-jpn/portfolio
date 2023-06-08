@@ -88,9 +88,13 @@
             font-size: $h4;
             color: $light-green;
             list-style: none;
-            margin-bottom: .5em;
+            margin-bottom: 1em;
             display: inline-flex;
             flex-direction: column;
+        }
+
+        .tech-item p {
+            margin-bottom: 0;
         }
 
         .icon-img {
@@ -105,6 +109,10 @@
                 max-width: 36px;
                 margin-right: 0;
                 padding-bottom: .5em;
+            }
+
+            .tech-item {
+                margin-bottom: 3em;
             }
 
             .technolgies-used h3 {
