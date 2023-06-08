@@ -82,7 +82,7 @@
         }
         
 
-        li {
+        .tech-item {
             font-weight: bold;
             font-size: $h4;
             color: $light-green;
@@ -92,7 +92,7 @@
             flex-direction: column;
         }
 
-        li img {
+        div img {
             max-width: 16px;
             vertical-align: middle;
             margin-right: .25em;
