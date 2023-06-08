@@ -107,6 +107,10 @@
             color: $darker-green
         }
 
+        a {
+            width: 100%;
+        }
+
         .contact-methods {
             padding: 0;
         }
@@ -122,12 +126,18 @@
             color: $green;
         }
 
+        .contact-item {
+            width: 100%;
+        }
+
+        .contact-type {
+            width: 25%;
+        }
+
         .contact-link {
             color: $link-light;
             font-size: $h6;
-        }
-
-        .contact-item {
+            width: 75%;
             padding: 1em 0;
         }
     }
@@ -177,7 +187,19 @@
                 .contact-link {
                     font-size: $h5;
                 }
+        
+                .contact-type {
+                    width: auto;
+                }
+        
+                .contact-link {
+                    width: auto;
+                    padding: 0;
+                }
 
+                a {
+                    width: auto;
+                }
 
                 i {
                     font-size: 2em;
@@ -207,7 +229,8 @@
                 padding: 12em 0 12em 0;
 
                 .contact-item {
-                    padding: 1em;
+                    padding: 1em 1em;
+                    width: auto;
                 }
 
                 .contact-email {
