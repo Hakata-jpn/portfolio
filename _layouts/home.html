@@ -40,38 +40,45 @@
 		</section>
 
 		<!-- CONTACT SECTION -->
-		<section class="contact-section" id="contact">
-			<h2>Contact Form</h2>
-				<div class="contact-container">
-					<p>{{ page.contact-line1 }}</p>
-					<p>{{ page.contact-line2 }}</p>
-					<div class="technolgies-used container align-items-center">
-						<h3>Technologies I use!</h3>
-						
-						<div class="container px-0">
-							<div class="tech-row px-0 mb-0">
-								<div class="col-6 col-md-3 tech-item">
-									<div class="d-flex flex-md-column align-items-center">
-										<img src="../images/icons/figma.svg" alt="" class="icon-img">
-										<p>Figma</p>
+		<section class="contact-section overflow-hidden" id="contact">
+			<div class="container">
+				<div class="row margin-auto justify-content-center align-items-center">
+					<div class="col-12">
+						<h2>Contact Form</h2>
+					<div class="contact-blurb">
+						<p>{{ page.contact-line1 }}</p>
+						<p>{{ page.contact-line2 }}</p>
+						<div class="contact-methods container align-items-center">
+							<div class="container px-0">
+								<div class="tech-row px-0 mb-0">
+									<div class="d-flex flex-row">
+										<div class="d-flex flex-md-column align-items-center">
+											<i class="fa-brands fa-figma pe-1"></i>
+											<p class="m-0 pe-2">Email</p>
+										</div>
+											<a href="mailto:hello@blandingdesign.com">hello@blandingdesign.com</a>
 									</div>
-								</div>
-								<div class="col-6 col-md-3 tech-item">
-									<div class="d-flex flex-md-column align-items-center">
-										<img src="../images/icons/axure.svg" alt="" class="icon-img">
-										<p>Axure RP</p>
+									<div class="d-flex flex-row">
+										<div class="d-flex flex-md-column align-items-center">
+											<i class="fa-brands fa-linkedin pe-1"></i>
+											<p class="m-0 pe-2">LinkedIn</p>
+										</div>
+											<a href="https://www.linkedin.com/in/blandingr/">blandingr</a>
 									</div>
-								</div>
-								<div class="col-6 col-md-3 tech-item">
-									<div class="d-flex flex-md-column align-items-center">
-										<img src="../images/icons/adobecc.svg" alt="" class="icon-img">
-										<p>Adobe CC</p>
+									<div class="d-flex flex-row">
+										<div class="d-flex flex-md-column align-items-center">
+											<i class="fa-brands fa-github pe-1"></i>
+											<p class="m-0 pe-2">GitHub</p>
+										</div>
+											<a href="https://github.com/Hakata-jpn">hakata-jpn</a>
 									</div>
-								</div>
-							</div>    
+								</div>    
+							</div>
 						</div>
 					</div>
+					</div>
 				</div>
+			</div>
 		</section>
 
 		{% include footer.html %}

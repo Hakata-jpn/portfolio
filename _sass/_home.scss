@@ -131,4 +131,30 @@
             }
         }
     }
+
+    // Contact me section starts here
+    .contact-section {
+
+        padding: 3em 0;
+        
+        h2 {
+            color: $brown;
+            padding-bottom: 1em;
+        }
+
+        p {
+            color: $darker-green
+        }
+
+        .contact-methods {
+            padding: 0;
+        }
+
+        .contact-blurb {
+            padding: 1em;
+            background-color: white;
+            border-radius: .5em;
+            box-shadow: $light--shadow;
+        }
+    }
 }
