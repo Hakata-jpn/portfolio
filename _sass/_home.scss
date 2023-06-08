@@ -4,6 +4,7 @@
     h1 {
         font-size: $h1;
         color: $brown;
+        margin-bottom: .25em;
     }
 
     .home-container {
@@ -27,17 +28,25 @@
         color: $link-light;
     }
 
+     // Media Queries for About Me Section
+     @media only screen and (min-width: 992px) {
+        h1 {
+            font-size: $h1--desktop;
+        }
+    
+        .intro-blurb {
+            font-size: $p-large--desktop;
+        }
+    }
+
     // ABOUT ME section
     .aboutme-section {
         background-color: $darker-green;
         padding: 2em 1em 2em 1em;
 
-        h2 {
+        h2, h3 {
             color: $background;
-        }
-
-        h3 {
-            color: $background;
+            margin-bottom: 1em;
         }
 
         p {
@@ -66,10 +75,6 @@
             margin: 0;
         }
 
-        .technolgies-used h3 {
-            margin-bottom: 1em;
-        }
-
         .tech-row {
             display: flex;
             align-items: center;
@@ -88,24 +93,34 @@
             flex-direction: column;
         }
 
-        div img {
+        .icon-img {
             max-width: 16px;
             vertical-align: middle;
             margin-right: .25em;
         }
 
+            // Media Queries for About Me - Technologies
+        @media only screen and (min-width:768px) {
+            .icon-img {
+                max-width: 36px;
+                margin-right: 0;
+                padding-bottom: .5em;
+            }
 
+            .technolgies-used h3 {
+                margin-bottom: 1.75em;
+            }
 
-    }
-
-    // General Media Queries
-    @media only screen and (min-width: 992px) {
-        h1 {
-            font-size: $h1--desktop;
+            .aboutme-content {
+                padding-bottom: 3em;
+            }
         }
-
-        .intro-blurb p, a {
-            font-size: $p-large--desktop;
+        @media only screen and (min-width:992px) {
+            .icon-img {
+                max-width: 64px;
+                margin-right: 0;
+                padding-bottom: .5em;
+            }
         }
     }
 }
