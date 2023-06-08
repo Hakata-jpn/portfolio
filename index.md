@@ -4,6 +4,8 @@ title: "Home Page"
 fulltitle: "My Portfolio Website | Designed in 2023!" 
 introduction: Hi! I'm Ren, UI/UX Designer.
 intro-blurb: Experienced in digital design solutions for non-profits and eCommerce, as well as prior agency experience in the corporate and educational non-profit space.
+contact-line1: I check my messages daily but business hours (CDT) are the best time to contact me.</p>
+contact-line2: If you have any cool photography projects or keyboards, feel free to share 👀 For business opportunities, collaborations, and more you can find me here
 ---
 
 <p>I’m a UI/UX Designer with 2.5 years of industry experience, mostly for wholesale e-commerce and nonprofit organizations. Formerly worked at Adage Technologies, my clients include a 9-figure non-profit in the healthcare education sector, as well as a $100m+ wholesale client in the sanitation industry. My specializations are in component design for developer hand-off as well as layout design for web. I also have a minor interest in front-end development, as you can see this site was made in-house!</p>

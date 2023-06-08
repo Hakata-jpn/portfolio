@@ -28,6 +28,15 @@
         color: $link-light;
     }
 
+    .custom-btn, .custom-btn a {
+        background-color: $yell-orange !important;
+        color: $darkest-green !important;
+        font-weight: bold !important;
+        padding: .5em;
+        border-radius: .75em;
+        font-size: $h6;
+    }
+
      // Media Queries for About Me Section
      @media only screen and (min-width: 992px) {
         h1 {
@@ -57,15 +66,6 @@
             font-weight: 400;
             color: $link-dark;
             font-size: $p;
-        }
-
-        .resume-download {
-            background-color: $yell-orange;
-            color: $darkest-green;
-            font-weight: bold;
-            padding: .5em;
-            border-radius: .75em;
-            font-size: $h6;
         }
 
         //Technologies used section starts here

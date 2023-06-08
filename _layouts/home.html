@@ -29,12 +29,49 @@
 				<div class="p-0 container">
 					<h2 class="col-lg-10 d-flex w-100">About Me</h2>
 						<div class="col-lg-9 container aboutme-content px-0">
-							<p>{{ page.content }}</p>
-							<a class="btn w-100 resume-download" href="#">Download Resume (PDF)</a>
+							<p class="">{{ page.content }}</p>
+							<div class="w-100 d-flex justify-content-end">
+								<a class="btn col-12 col-md-6 custom-btn" href="#">Download Resume (PDF)</a>
+							</div>
 						</div>
 				</div>
 				{% include technologies-used.html %}
 			</div>
+		</section>
+
+		<!-- CONTACT SECTION -->
+		<section class="contact-section" id="contact">
+			<h2>Contact Form</h2>
+				<div class="contact-container">
+					<p>{{ page.contact-line1 }}</p>
+					<p>{{ page.contact-line2 }}</p>
+					<div class="technolgies-used container align-items-center">
+						<h3>Technologies I use!</h3>
+						
+						<div class="container px-0">
+							<div class="tech-row px-0 mb-0">
+								<div class="col-6 col-md-3 tech-item">
+									<div class="d-flex flex-md-column align-items-center">
+										<img src="../images/icons/figma.svg" alt="" class="icon-img">
+										<p>Figma</p>
+									</div>
+								</div>
+								<div class="col-6 col-md-3 tech-item">
+									<div class="d-flex flex-md-column align-items-center">
+										<img src="../images/icons/axure.svg" alt="" class="icon-img">
+										<p>Axure RP</p>
+									</div>
+								</div>
+								<div class="col-6 col-md-3 tech-item">
+									<div class="d-flex flex-md-column align-items-center">
+										<img src="../images/icons/adobecc.svg" alt="" class="icon-img">
+										<p>Adobe CC</p>
+									</div>
+								</div>
+							</div>    
+						</div>
+					</div>
+				</div>
 		</section>
 
 		{% include footer.html %}
