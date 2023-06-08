@@ -155,9 +155,33 @@
                 }
             }
             
-            .contact-section{
+            .contact-section {
+                padding-bottom: 5em;
+
                 .contact-item {
-                    padding: 0;
+                    padding: .75em 0;
+                }
+
+                .contact-email {
+                    width: 100%;
+                }
+
+                .contact-linkedin {
+                    width: 50%;
+                }
+
+                .contact-github {
+                    width: 50%;
+                }
+
+                .contact-link {
+                    font-size: $h5;
+                }
+
+
+                i {
+                    font-size: 2em;
+                    padding-right: .125em;
                 }
             }
          }
@@ -178,5 +202,30 @@
                     padding-bottom: .5em;
                 }
              }
+
+             .contact-section {
+                padding: 12em 0 12em 0;
+
+                .contact-item {
+                    padding: 1em;
+                }
+
+                .contact-email {
+                    width: auto;
+                }
+
+                .contact-linkedin {
+                    width: auto;
+                }
+
+                .contact-github {
+                    width: auto;
+                }
+
+                .contact-link {
+                    font-size: $h6--desktop;
+                }
+
+            }
          }
 }
