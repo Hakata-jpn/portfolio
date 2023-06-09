@@ -1,7 +1,5 @@
-.nav-container{
-    nav {
-        background-color: $background;
-    }
+.nav-container {
+    background-color: $background;
 
     .container {
         padding: .5em;
@@ -53,4 +51,8 @@
             font-size: $h5--desktop;
         }
     }
+}
+
+.nav-container:scrolled {
+    box-shadow: $light--shadow;
 }
