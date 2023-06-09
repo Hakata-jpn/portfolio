@@ -17,7 +17,7 @@
 					{% endif %}
 				</div>
 				<div class="image-container">
-					<img alt="Simplified and debranded version of the Product Page" src="{{ page.thumbnail-img }}">
+					<img class="w-100" alt="Simplified and debranded version of the Product Page" src="{{ page.thumbnail-img }}">
 				</div>
 				<div class="full-summary">
 					{% if page.confidential %}
@@ -39,6 +39,8 @@
 						{%- endif -%}
 					{% endfor %}
 					</ul>
+					<h3>In Depth</h3>
+					{{ content }}
 				</div>
 			</section>
 
