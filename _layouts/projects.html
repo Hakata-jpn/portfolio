@@ -13,7 +13,7 @@
 				<div class="row justify-content-center align-items-center">
 					<div class="introduction col-10 col-md-10 col-lg-8 px-0 mx-0">
 						<h1 class="text-center">{{ page.title }}</h1>
-						<div class="blurb">
+						<div class="blurb col-10">
 							<h2 class="summary-header">Summary:</h2>
 							<p>{{ page.summary }}</p>
 							{% if page.attribution %}
@@ -25,10 +25,10 @@
 			</div>
 
 			<!-- MAIN CONTENT -->
-			<section class="summary">
+			<section class="summary-section">
 				<div class="container px-0">
 					<div class="row justify-content-center align-items-center">
-						<div class="container d-flex flex-column col-10 col-lg-8 px-0">
+						<div class="container d-flex flex-column col-10 col-lg-8 px-0 d-absolute">
 
 							<!-- THUMBNAIL IMAGE AT FULL SIZE -->
 							<div class="image-container blurb">
