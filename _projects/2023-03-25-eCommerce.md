@@ -41,6 +41,6 @@ In the summer of 2022, the design team at Adage developed a UX site assessment o
 Due to the sensitive nature of the work, further details have to be withheld. What can be said is that the overall work was completed using Figma, with complex interactions wireframed via Axure. The use of component state as well as variants made the building of the site a lot easier and more consistent across the various wireframes, which was very new to me at the time of the project. A demo of the sticky TOC can be seen below, which was completed in Axure. This interaction took a long time to properly work because of where the component was initially located before becoming sticky, but it was important to demonstrate to demo to the client and was completed on their behalf.
 
 ![Sample of sticky TOC interaction](../images/ecommerce/web-sticky-toc.gif)
-*This example was made in After Effects, to simulate what the client might have seen. The subheader location made this interaction very difficult to recreate in Axure.*
+> This example was made in After Effects, to simulate what the client might have seen. The subheader location made this interaction very difficult to recreate in Axure. 
 
 The nature of the work led to client presentations every two weeks to discuss the progress of the wireframes and the site architecture testing. We had a tree testing process set up for the client and were awaiting their word on whether or not to proceed at the time. 

@@ -1,22 +1,48 @@
 .project-container {
     background-color: $background;
-}
 
-.projects-information-container {
     .summary-blurb h2 {
         font-size: $h5;
         font-weight: bold;
+        color: $darker-green;
         font-family: 'Figtree', sans-serif;
+    }
+    .summary-blurb {
+        background-color: white;
+        border-radius: .5em;
+        padding: .75em;
+        box-shadow: $light--shadow;
     }
     
     img {
         width: 100%;
     }
 
+    blockquote, .img-attribution, .confidential {
+        font-size: $p-small;
+    }
+
+    blockquote p, .img-attribution {
+        color: gray;
+        font-style: italic;
+    } 
+
     .confidential {
-        color: $black;
+        color: $dark-gray;
         font-weight: bold;
         font-size: $p-small;
+    }
+
+    section.summary {
+        background-color: $darker-green;
+        padding: 2em 1em 2em 1em;
+
+
+    .summary-blurb {
+        padding: 1em;
+        background-color: white;
+        border-radius: .5em;
+        box-shadow: $light--shadow;
     }
 
     .skill-tags {
@@ -34,4 +60,6 @@
         font-weight: 600;
         padding-bottom: .5em;
     }
+    }
 }
+

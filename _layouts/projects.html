@@ -8,41 +8,60 @@
 		
 		{% include heading.html %}
 
-			<section class="projects-information-container">
-				<h1 class="text-center">{{ page.title }}</h1>
-				<div class="summary-blurb">
-					<h2>Summary:</h2>
-					<p>{{ page.summary }}</p>
-					{% if page.attribution %}
-						<p class="img-attribution">{{ page.attribution }}</p>
-					{% endif %}
+			<!-- HERO SECTION  -->
+			<div class="container px-0">
+				<div class="row margin-auto justify-content-center align-items-center">
+					<div class="introduction col-10 col-lg-8 px-0">
+						<h1 class="text-center">{{ page.title }}</h1>
+						<div class="summary-blurb">
+							<h2 class="summary-header">Summary:</h2>
+							<p>{{ page.summary }}</p>
+							{% if page.attribution %}
+								<p class="img-attribution">{{ page.attribution }}</p>
+							{% endif %}
+						</div>
+					</div>
 				</div>
-				<div class="image-container">
-					<img alt="Simplified and debranded version of the Product Page" src="{{ page.thumbnail-img }}">
-				</div>
-				<div class="full-summary">
-					{% if page.confidential %}
-					<p class="confidential">[⚠️ WARNING: This project is not publicly available but implementation is under way. Details have been changed to keep the client and identifying details confidential. Limited details can be confirmed by Brian Hill at Adage Technologies]</p>
-				{% endif %}
-					<h3>Skills Used In Project</h3>
-					<ul class="skill-list p-0">
-						{% for skills in page.tags -%}
-						{%- if forloop.length > 0 -%}
-							<li  class="skill-tags">{{ skills }}</li>{% unless forloop.last %}{% endunless -%}
-						{%- endif -%}
-					{% endfor %}
-					</ul>
-					<h3>What I learned</h3>
-					<ul>
-						{% for lessons in page.learned -%}
-						{%- if forloop.length > 0 -%}
-							<li class="learned-list">{{ lessons }}</li>{% unless forloop.last %}{% endunless -%}
-						{%- endif -%}
-					{% endfor %}
-					</ul>
-					<h3>In Depth</h3>
-					{{ content }}
-				</div>
+			</div>
+
+			<!-- MAIN CONTENT -->
+			<section class="summary">
+				<div class="container d-flex flex-column col-md-10 px-0">
+					<div class="summary-blurb">
+
+						<!-- THUMBNAIL IMAGE AT FULL SIZE -->
+						<div class="image-container">
+							<img alt="Simplified and debranded version of the Product Page" src="{{ page.thumbnail-img }}">
+						</div>
+
+						<!-- OPTIONAL TEXT: Will appear if 'confidential' is truthy in the markdown file. -->
+						{% if page.confidential %}
+						<p class="confidential">[⚠️ WARNING: This project is not publicly available but implementation is under way. Details have been changed to keep the client and identifying details confidential. Limited details can be confirmed by Brian Hill at Adage Technologies]</p>
+						{% endif %}
+
+						<!-- TEXT CONTENT -->
+						<h3>Skills Used In Project</h3>
+						<ul class="skill-list p-0">
+							{% for skills in page.tags -%}
+							{%- if forloop.length > 0 -%}
+								<li  class="skill-tags">{{ skills }}</li>{% unless forloop.last %}{% endunless -%}
+							{%- endif -%}
+						{% endfor %}
+						</ul>
+						
+						<h3>What I learned</h3>
+						<ul>
+							{% for lessons in page.learned -%}
+							{%- if forloop.length > 0 -%}
+								<li class="learned-list">{{ lessons }}</li>{% unless forloop.last %}{% endunless -%}
+							{%- endif -%}
+						{% endfor %}
+						</ul>
+
+						<h3>In Depth</h3>
+						{{ content }} <!-- .md main contents go here -->
+					</div>
+				</div>	
 			</section>
 
 		{% include footer.html %}
