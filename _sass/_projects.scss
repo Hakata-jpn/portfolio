@@ -1,3 +1,7 @@
+.project-container {
+    background-color: $background;
+}
+
 .projects-information-container {
     .summary-blurb h2 {
         font-size: $h5;
@@ -13,5 +17,21 @@
         color: $black;
         font-weight: bold;
         font-size: $p-small;
+    }
+
+    .skill-tags {
+        list-style: none;
+        display: inline-block;
+        padding: .5em;
+        margin: .25em;
+        background-color: $light-green;
+        border-radius: .5em;
+        color: $darkest-green;
+        font-weight: bold;
+    }
+
+    .learned-list {
+        font-weight: 600;
+        padding-bottom: .5em;
     }
 }
