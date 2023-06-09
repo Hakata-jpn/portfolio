@@ -1,8 +1,13 @@
 .project-container {
     background-color: $background;
 
+    .introduction-container {
+        position: absolute;
+    }
+
     .introduction {
         padding: 1em 0 0 0;
+        position: relative;
     }
 
     h1 {
@@ -21,11 +26,8 @@
         border-radius: .5em;
         padding: .75em;
         box-shadow: $light--shadow;
-        margin-bottom: -1em;
-        top: 0%;
-        position: absolute;
     }
-    
+
     img {
         width: 100%;
     }
@@ -47,7 +49,7 @@
 
     section.summary-section {
         background-color: $darker-green;
-        padding: 10em 0em 2em 0;
+        padding: 2em 0;
 
         .blurb {
             margin-bottom: 1em;
