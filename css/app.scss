@@ -2,16 +2,6 @@
 ~
 ---
 
-body{
-	margin: 0;
-	font-size: 16px;
-	}
-
-.container {
-	padding: 0;
-}
-
-
 /* Color vars */
 $darkest-green: rgba(41, 49, 40, 1);
 $darker-green: rgba(34, 69, 31, 1);
@@ -53,8 +43,27 @@ $p-small--desktop: .875em;
 /* Effect vars */
 $light--shadow:  0px 2px 2px rgba(0, 0, 0, 0.1);
 
-body {
+
+body{
+	margin: 0;
+	font-size: 16px;
 	background-color: $background;
+	}
+
+.container {
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $brown;
+}
+
+p, li {
+	color: $darker-green;
+}
+
+a {
+	color: $link-light;
 }
 
 

@@ -1,0 +1,17 @@
+.projects-information-container {
+    .summary-blurb h2 {
+        font-size: $h5;
+        font-weight: bold;
+        font-family: 'Figtree', sans-serif;
+    }
+    
+    img {
+        width: 100%;
+    }
+
+    .confidential {
+        color: $black;
+        font-weight: bold;
+        font-size: $p-small;
+    }
+}
