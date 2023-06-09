@@ -9,3 +9,15 @@ footer {
     margin: 0;
     font-size: $p-small;
 }
+
+// Darkmode styles
+
+.footer-container-darkmode {
+    background-color: $light-green;
+}
+
+.footer-container-darkmode p {
+    color: $darkest-green;
+    margin: 0;
+    font-size: $p-small;
+}

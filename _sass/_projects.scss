@@ -1,17 +1,27 @@
 .project-container {
     background-color: $background;
 
-    .summary-blurb h2 {
+    .introduction {
+        padding: 1em 0 0 0;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .blurb h2 {
         font-size: $h5;
         font-weight: bold;
         color: $darker-green;
         font-family: 'Figtree', sans-serif;
     }
-    .summary-blurb {
+
+    .blurb {
         background-color: white;
         border-radius: .5em;
         padding: .75em;
         box-shadow: $light--shadow;
+        margin-bottom: -9em;
     }
     
     img {
@@ -35,31 +45,27 @@
 
     section.summary {
         background-color: $darker-green;
-        padding: 2em 1em 2em 1em;
+        padding: 10em 0em 2em 0;
 
+        .blurb {
+            margin-bottom: 1em;
+        }
 
-    .summary-blurb {
-        padding: 1em;
-        background-color: white;
-        border-radius: .5em;
-        box-shadow: $light--shadow;
-    }
+        .skill-tags {
+            list-style: none;
+            display: inline-block;
+            padding: .5em;
+            margin: .25em;
+            background-color: $light-green;
+            border-radius: .5em;
+            color: $darkest-green;
+            font-weight: bold;
+        }
 
-    .skill-tags {
-        list-style: none;
-        display: inline-block;
-        padding: .5em;
-        margin: .25em;
-        background-color: $light-green;
-        border-radius: .5em;
-        color: $darkest-green;
-        font-weight: bold;
-    }
-
-    .learned-list {
-        font-weight: 600;
-        padding-bottom: .5em;
-    }
+        .learned-list {
+            font-weight: 600;
+            padding-bottom: .5em;
+        }
     }
 }
 

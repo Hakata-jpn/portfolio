@@ -10,10 +10,10 @@
 
 			<!-- HERO SECTION  -->
 			<div class="container px-0">
-				<div class="row margin-auto justify-content-center align-items-center">
-					<div class="introduction col-10 col-lg-8 px-0">
+				<div class="row justify-content-center align-items-center">
+					<div class="introduction col-10 col-md-10 col-lg-8 px-0 mx-0">
 						<h1 class="text-center">{{ page.title }}</h1>
-						<div class="summary-blurb">
+						<div class="blurb">
 							<h2 class="summary-header">Summary:</h2>
 							<p>{{ page.summary }}</p>
 							{% if page.attribution %}
@@ -26,45 +26,49 @@
 
 			<!-- MAIN CONTENT -->
 			<section class="summary">
-				<div class="container d-flex flex-column col-md-10 px-0">
-					<div class="summary-blurb">
+				<div class="container px-0">
+					<div class="row justify-content-center align-items-center">
+						<div class="container d-flex flex-column col-10 col-lg-8 px-0">
 
-						<!-- THUMBNAIL IMAGE AT FULL SIZE -->
-						<div class="image-container">
-							<img alt="Simplified and debranded version of the Product Page" src="{{ page.thumbnail-img }}">
-						</div>
+							<!-- THUMBNAIL IMAGE AT FULL SIZE -->
+							<div class="image-container blurb">
+								<img alt="Simplified and debranded version of the Product Page" src="{{ page.thumbnail-img }}">
+							</div>
 
-						<!-- OPTIONAL TEXT: Will appear if 'confidential' is truthy in the markdown file. -->
-						{% if page.confidential %}
-						<p class="confidential">[⚠️ WARNING: This project is not publicly available but implementation is under way. Details have been changed to keep the client and identifying details confidential. Limited details can be confirmed by Brian Hill at Adage Technologies]</p>
-						{% endif %}
-
-						<!-- TEXT CONTENT -->
-						<h3>Skills Used In Project</h3>
-						<ul class="skill-list p-0">
-							{% for skills in page.tags -%}
-							{%- if forloop.length > 0 -%}
-								<li  class="skill-tags">{{ skills }}</li>{% unless forloop.last %}{% endunless -%}
-							{%- endif -%}
-						{% endfor %}
-						</ul>
-						
-						<h3>What I learned</h3>
-						<ul>
-							{% for lessons in page.learned -%}
-							{%- if forloop.length > 0 -%}
-								<li class="learned-list">{{ lessons }}</li>{% unless forloop.last %}{% endunless -%}
-							{%- endif -%}
-						{% endfor %}
-						</ul>
-
-						<h3>In Depth</h3>
-						{{ content }} <!-- .md main contents go here -->
+							<div class="blurb w-100">
+								<!-- OPTIONAL TEXT: Will appear if 'confidential' is truthy in the markdown file. -->
+								{% if page.confidential %}
+								<p class="confidential">[⚠️ WARNING: This project is not publicly available but implementation is under way. Details have been changed to keep the client and identifying details confidential. Limited details can be confirmed by Brian Hill at Adage Technologies]</p>
+								{% endif %}
+		
+								<!-- TEXT CONTENT -->
+								<h3>Skills Used In Project</h3>
+								<ul class="skill-list p-0">
+									{% for skills in page.tags -%}
+									{%- if forloop.length > 0 -%}
+										<li  class="skill-tags">{{ skills }}</li>{% unless forloop.last %}{% endunless -%}
+									{%- endif -%}
+								{% endfor %}
+								</ul>
+								
+								<h3>What I learned</h3>
+								<ul>
+									{% for lessons in page.learned -%}
+									{%- if forloop.length > 0 -%}
+										<li class="learned-list">{{ lessons }}</li>{% unless forloop.last %}{% endunless -%}
+									{%- endif -%}
+								{% endfor %}
+								</ul>
+		
+								<h3>In Depth</h3>
+								{{ content }} <!-- .md main contents go here -->
+							</div>
+						</div>	
 					</div>
-				</div>	
+				</div>
 			</section>
 
-		{% include footer.html %}
+		{% include footer-darkmode.html %}
 	</body>
 </html>
 
