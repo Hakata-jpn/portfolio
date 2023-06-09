@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: projects
 title: eCommerce Design Overhaul
 emoji: 🏬
 metaDescription: Overhaul of Wholesale eCommerce platform
@@ -11,7 +11,6 @@ tags:
   - UX Research
   - UX Architecture
   - Component Design
-  - Client Presenting
   - Adobe Photoshop
 ---
 

@@ -1,10 +1,12 @@
 # Site settings
-title: My Little Website
-tagline: "Changing the world, one uninspired quote at a time"
+title: Portfolio Site - Ren Blanding
+tagline: "UX/UI Designer for eCommerce and non-profit orgs."
 # url: "http://yourwebsite.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
 
 collections:
-  - projects
+  projects:
+    output: true
+    permalink: /projects/:title
 
 # Social
 github: Hakata-jpn
