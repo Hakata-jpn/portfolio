@@ -17,6 +17,21 @@ email: "blandingren425@gmail.com" # This is my real email address. Please don't 
 
 # Use this for production
 sass:
+    sass_dir: _sass
     style: compressed
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+parse_block_html: true
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-archives
+
+
 
 exclude: [README.md, node_modules, gruntfile.js, package.json]
