@@ -25,7 +25,7 @@ tags:
   - Pair programming
 
 ### Overview
-
+e
 Test of web design agency concept, with a basic branding and programming done in collaboration with a friend using GitHub.
 
 ### What I learned
