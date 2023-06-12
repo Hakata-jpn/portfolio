@@ -32,7 +32,7 @@
         width: 100%;
     }
 
-    blockquote, .img-attribution, .confidential {
+    .img-attribution, .confidential {
         font-size: $p-small;
     }
 
@@ -40,6 +40,7 @@
         color: gray;
         font-style: italic;
         margin-bottom: 0;
+        font-size: $p-small;
     } 
 
     .confidential {
@@ -66,6 +67,10 @@
             border-radius: .5rem;
             color: $darkest-green;
             font-weight: bold;
+        }
+
+        .learned-list-group {
+            padding-left: 1rem;
         }
 
         .learned-list {
