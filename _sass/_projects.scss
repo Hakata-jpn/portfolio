@@ -6,7 +6,7 @@
     }
 
     .introduction {
-        padding: 1em 0 0 0;
+        padding: 4rem 0 1rem 0;
         position: relative;
     }
 
@@ -23,8 +23,8 @@
 
     .blurb {
         background-color: white;
-        border-radius: .5em;
-        padding: .75em;
+        border-radius: .5rem;
+        padding: .75rem;
         box-shadow: $light--shadow;
     }
 
@@ -39,6 +39,7 @@
     blockquote p, .img-attribution {
         color: gray;
         font-style: italic;
+        margin-bottom: 0;
     } 
 
     .confidential {
@@ -49,27 +50,27 @@
 
     section.summary-section {
         background-color: $darker-green;
-        padding: 2em 0;
+        padding: 1rem 0 2rem 0;
 
         .blurb {
-            margin-bottom: 1em;
+            margin-bottom: 1rem;
             position: static;
         }
 
         .skill-tags {
             list-style: none;
             display: inline-block;
-            padding: .5em;
-            margin: .25em;
+            padding: .5rem;
+            margin: .25rem;
             background-color: $light-green;
-            border-radius: .5em;
+            border-radius: .5rem;
             color: $darkest-green;
             font-weight: bold;
         }
 
         .learned-list {
             font-weight: 600;
-            padding-bottom: .5em;
+            padding-bottom: .5rem;
         }
     }
 }

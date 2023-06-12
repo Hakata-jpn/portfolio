@@ -4,22 +4,22 @@
     h1 {
         font-size: $h1;
         color: $brown;
-        margin-bottom: .25em;
+        margin-bottom: .25rem;
     }
 
     .home-container {
-        padding: 2em 0 2em 0;
+        padding: 2rem 0 2rem 0;
     }
 
     .intro-blurb {
         background-color: white;
-        border-radius: .5em;
-        padding: .75em;
+        border-radius: .5rem;
+        padding: .75rem;
         box-shadow: $light--shadow;
     }
 
     .intro-blurb p {
-        margin-bottom: .5em;
+        margin-bottom: .5rem;
     }
 
     .intro-blurb a {
@@ -30,19 +30,19 @@
         background-color: $yell-orange !important;
         color: $darkest-green !important;
         font-weight: bold !important;
-        padding: .5em;
-        border-radius: .75em;
+        padding: .5rem;
+        border-radius: .75rem;
         font-size: $h6;
     }
 
     // ABOUT ME section
     .aboutme-section {
         background-color: $darker-green;
-        padding: 2em 1em 2em 1em;
+        padding: 2rem 1rem 2rem 1rem;
 
         h2, h3 {
             color: $background;
-            margin-bottom: 1em;
+            margin-bottom: 1rem;
         }
 
         p {
@@ -58,7 +58,7 @@
         //Technologies used section starts here
 
         .technolgies-used {
-            padding: 1.5em 0 0 0;
+            padding: 1.5rem 0 0 0;
             margin: 0;
         }
 
@@ -75,7 +75,7 @@
             font-size: $h4;
             color: $light-green;
             list-style: none;
-            margin-bottom: 1em;
+            margin-bottom: 1rem;
             display: inline-flex;
             flex-direction: column;
         }
@@ -87,18 +87,18 @@
         .icon-img {
             max-width: 16px;
             vertical-align: middle;
-            margin-right: .25em;
+            margin-right: .25rem;
         }
     }
 
     // Contact me section starts here
     .contact-section {
 
-        padding: 3em 0;
+        padding: 3rem 0;
         
         h2 {
             color: $brown;
-            padding-bottom: 1em;
+            padding-bottom: 1rem;
         }
 
         p {
@@ -114,9 +114,9 @@
         }
 
         .contact-blurb {
-            padding: 1em;
+            padding: 1rem;
             background-color: white;
-            border-radius: .5em;
+            border-radius: .5rem;
             box-shadow: $light--shadow;
         }
 
@@ -135,7 +135,7 @@
         .contact-link {
             font-size: $h6;
             width: 75%;
-            padding: 1em 0;
+            padding: 1rem 0;
         }
     }
 
@@ -146,27 +146,27 @@
                 .icon-img {
                     max-width: 36px;
                     margin-right: 0;
-                    padding-bottom: .5em;
+                    padding-bottom: .5rem;
                 }
     
                 .tech-item {
-                    margin-bottom: 3em;
+                    margin-bottom: 3rem;
                 }
     
                 .technolgies-used h3 {
-                    margin-bottom: 1.75em;
+                    margin-bottom: 1.75rem;
                 }
     
                 .aboutme-content {
-                    padding-bottom: 3em;
+                    padding-bottom: 3rem;
                 }
             }
             
             .contact-section {
-                padding-bottom: 5em;
+                padding-bottom: 5rem;
 
                 .contact-item {
-                    padding: .75em 0;
+                    padding: .75rem 0;
                 }
 
                 .contact-email {
@@ -199,8 +199,8 @@
                 }
 
                 i {
-                    font-size: 2em;
-                    padding-right: .125em;
+                    font-size: 2rem;
+                    padding-right: .125rem;
                 }
             }
          }
@@ -218,15 +218,15 @@
                 .icon-img {
                     max-width: 64px;
                     margin-right: 0;
-                    padding-bottom: .5em;
+                    padding-bottom: .5rem;
                 }
              }
 
              .contact-section {
-                padding: 12em 0 12em 0;
+                padding: 12rem 0 12rem 0;
 
                 .contact-item {
-                    padding: 1em 1em;
+                    padding: 1rem 1rem;
                     width: auto;
                 }
 
