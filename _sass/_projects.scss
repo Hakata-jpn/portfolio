@@ -73,10 +73,29 @@
             padding-left: 1rem;
         }
 
+        @media only screen and (min-width: 768px) {
+            
+            .learned-list-group {
+                padding-left: 2em;
+            }
+        }
+
         .learned-list {
             font-weight: 600;
             padding-bottom: .5rem;
         }
     }
+}
+
+@media only screen and (min-width: 768px) {
+        .project-container {
+            .introduction {
+                padding-bottom: 2em;
+            }
+
+            section.summary-section {
+                padding-top: 2em;
+            }
+        }
 }
 
