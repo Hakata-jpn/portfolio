@@ -35,12 +35,14 @@
 								<hr class="project-line">
 								{% assign date = currentdate %}
 							{% endif %}
-								<div>
-									<a href="{{ post.url }}">
+								<div class="d-flex flex-column flex-md-row project-div">
+									<a href="{{ post.url }}" class="project-image">
 										<img class="img-fluid" src="{{ post.thumbnail-img }}" alt="{{ post.thumbnail-alt }}" >
 									</a>
-									<a href="{{ post.url }}">{{ post.title }}</a>
-									<p class="">{{ post.summary }}</p>
+									<div class="project-text">
+										<a href="{{ post.url }}">{{ post.title }}</a>
+										<p class="">{{ post.summary }}</p>
+									</div>
 								</div>
 						  {% endfor %}
 							<div class="w-100 d-flex justify-content-end">
