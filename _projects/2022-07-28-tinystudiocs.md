@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: project
 title: TinyStudioCS (Test Site)
 confidential: false
 metaDescription: Single page test website to learn web dev and site deployment with NextJS.
@@ -7,7 +7,9 @@ summary: Test of web design agency concept, with a basic branding and programmin
 attribution: Image by svstudioart on Freepik
 
 # Will be used on the thumbnail and main image.
-thumbnail-img: "../images/ecommerce/mockup-ecommerce.png"
+thumbnail-img: "../images/tinystudiocs/tinystudios-mockup.jpg"
+thumbnail-alt: "Mobile Mockup of TinyStudios Page"
+
 
 # What skills did you use in this project?
 tags:
@@ -27,8 +29,6 @@ learned:
   - Importance of Figma's Component and Auto-layout features in a large-scale UI project
   - How to create a tree test and sell it to a client
 ---
-
-![Mobile Mockup of TinyStudios Page](../images/tinystudiocs/tinystudios-mockup.jpg)
 
 
 ### Website Link:

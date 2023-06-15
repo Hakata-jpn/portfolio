@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: project
 title: eCommerce Design Overhaul
 confidential: true
 metaDescription: Overhaul of Wholesale eCommerce platform
