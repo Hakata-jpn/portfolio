@@ -8,10 +8,11 @@
     .archive-section {
         background-color: $darker-green;
         color: $background;
-        padding: 2rem 1rem;
+        padding: 0rem 1rem 2rem 1rem;
 
         h2, h3 {
             color: $background;
+            padding-top: 2rem;
             margin-bottom: 1rem;
         }
 
@@ -23,8 +24,17 @@
             font-family: 'DM Serif Display', serif;
             font-weight: bold;
             color: $background;
-            font-size: $h4;
+            font-size: $h3;
         }
+
+        .side-image {
+            max-width: 100%;
+        }
+
+        .side-project-div {
+            padding-bottom: 2em;
+        }
+
     }
 
 
@@ -43,6 +53,11 @@
             .project-image {
                 max-width: 40%;
                 margin-right: 1em;
+            }
+
+            .side-project-div {
+                max-width: 50%;
+                margin: .5rem;
             }
         }
     }
