@@ -31,8 +31,12 @@ learned:
 ---
 
 
-### Website Link:
-[https://tinystudiocs.com/](https://tinystudiocs.com/)
+
+#### Project Links:
+- [https://tinystudiocs.com/](https://tinystudiocs.com/)
+
+
+### In Depth
 
 In the summer of 2022, I had a friend reach out to me with the intent to start a web design business. He had a some dentistry clients he wanted to customize websites for and we got to work making a side-gig out of it. But of course, we needed a brand and identity to do that under so we got started on that first! The project eventually got sidelined as I got hired at Adage Technologies and my project partner started medical school but we did manage to create a basic branding and create a sample site.
 

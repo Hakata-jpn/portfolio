@@ -28,6 +28,8 @@ learned:
   - How to create a tree test and sell it to a client
 ---
 
+### In Depth
+
 In the summer of 2022, the design team at Adage developed a UX site assessment on behalf of the current client. With a multitude of changes recommended (20+ broad changes, Site Architecture update) I worked on the UI design work for the project. With that, I designed the following pages and components: 
 
 1. Header

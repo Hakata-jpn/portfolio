@@ -8,9 +8,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Redesigning portfolio website to demonstrate learned skills">
+    <meta name="description" content="Audit performed to identify usability issues with company site and propose fixes">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio Site Overhaul</title>
+    <title>UX Audit - Murphy's Magic</title>
 
     <!-- Bootstrap CSS -->
     <link rel='stylesheet' href="../css/app.css">
@@ -73,10 +73,10 @@
 			<div class="container px-0 overflow-hidden">
 				<div class="row justify-content-center align-items-center">
 					<div class="introduction col-10 col-md-10 col-lg-8 px-0 mx-0">
-						<h1 class="text-center">Portfolio Site Overhaul</h1>
+						<h1 class="text-center">UX Audit - Murphy's Magic</h1>
 						<div class="blurb summary-blurb">
 							<h2 class="summary-header">Summary:</h2>
-							<p>Overhaul current portfolio to a more inviting aesthetic using skills learned from previous jobs. Dev implementation was handled by myself to learn the handoff process.</p>
+							<p>Month-long analysis of the wholesale e-commerce company for identification of UX problems, as well as potential user demographics for a site redesign and methods to fix website issues. Concluded with the commissioning of back-end code refactoring</p>
 							
 						</div>
 					</div>
@@ -91,7 +91,7 @@
 
 							<!-- THUMBNAIL IMAGE AT FULL SIZE -->
 							<div class="image-container blurb">
-								<img alt="Desktop screen layout for new portfolio site" src="../images/portfolio/desktop-screen.png">
+								<img alt="Task flow diagram for Murphy's Magic site user identifying pain points" src="../images/ux-audit-murphys/task-flow.png">
 							</div>
 
 							<div class="blurb w-100">
@@ -101,47 +101,40 @@
 								<!-- TEXT CONTENT -->
 								<h3>Skills Used In Project</h3>
 								<ul class="skill-list p-0">
-									<li  class="skill-tags">Figma</li><li  class="skill-tags">HTML/CSS</li><li  class="skill-tags">Jekyll</li><li  class="skill-tags">Dev-Designer interaction</li><li  class="skill-tags">UI Design</li>
+									<li  class="skill-tags">Accessibility Analysis</li><li  class="skill-tags">Performance Analysis</li><li  class="skill-tags">Google Analytics</li><li  class="skill-tags">Interviewing</li><li  class="skill-tags">User Research</li><li  class="skill-tags">React</li><li  class="skill-tags">Tailwind CSS</li><li  class="skill-tags">Adobe Premiere Pro</li>
 								</ul>
 								
 								<h3>What I learned</h3>
 								<ul class="learned-list-group">
-									<li class="learned-list">The direct link between design work in Figma and web dev</li><li class="learned-list">How to translate columns on wireframes to bootstrap columns</li><li class="learned-list">What Sass does to augment CSS, and how to scope for styles within Sass files</li><li class="learned-list">How to deploy a site and use markdown to generate new articles</li><li class="learned-list">How to evaluate a site and overhaul its visuals + user experience</li>
+									<li class="learned-list">How to perform a UX Audit</li><li class="learned-list">How to present complex project proposals to stakeholders within a tight deadline, including the company owner</li><li class="learned-list">The importance of site speed as a metric for User Experience</li><li class="learned-list">Collaboration with developers to understand resource and skill limitations within a project proposal</li><li class="learned-list">ReactJS and Tailwind CSS as platforms for developing a new website</li>
 								</ul>
-								<h4 id="project-links">Project Links</h4>
+								<h3 id="in-depth">In Depth</h3>
+
+<p>When I was hired at <a href="https://www.murphysmagic.com/">Murphy’s Magic</a> to help them renovate their website and guide the strategy for their e-commerce business going forward, it was incredibly daunting. This was my first industry job and a monumental task for a solo designer. However, I was able to get pointed in the right direction with the help of my supervisor getting me interviews with people in the industry. From there I was able to better understand the history and context behind the magic wholesaler that helped shape the future direction for renovating their website. Being able to identify the needs of the magic industry and the business helped me ensure that any actions made for planning the future of the website went to benefiting dealers since they were the foundation of Murphy’s Magic.</p>
+
+<p>With all of that in mind, it became clear that any changes made to the site would have to be analyzed from the perspective of dealers as customers as well as the internal staff who serviced them. Extensive interviews with Sales team members and dealers pointed me in a general direction for analyzing pain points that needed to be addressed. Within a month, I was able to catalogue the critical issues with the site and present them to the company owner and department heads. One of the goals for a potential site redesign involved reaching out to end consumers and transitioning out of wholesale, which is encapsulated in this user flow describing how the current iteration of the website fails to do so:</p>
+
+<p><img src="../images/ux-audit-murphys/task-flow.png" alt="task flow for end consumer UX" /></p>
+
+<h3 id="critical-issues">Critical Issues</h3>
+
 <ul>
-  <li><a href="https://chipper-cranachan-7c0631.netlify.app/">Current Netlify Site link</a></li>
-  <li><a href="https://github.com/Hakata-jpn/portfolio">GitHub Repo for Portfolio</a></li>
+  <li>Performance issues, basic site operations take too long to complete for dealer customers</li>
+  <li>Competitors outperformed website in speed and site architecture (Demoed a video comparison to stakeholders)</li>
+  <li>Site Architecture deprecated in certain areas, needs update to improve user navigation</li>
+  <li>Sales team also experiences significant slowdowns and uses workarounds to complete basic tasks</li>
+  <li>Not designed for mobile, site is unusable on smaller screens and/or touch devices</li>
+  <li>Corporate desire to reach to end consumers with a site design hostile to end consumers</li>
 </ul>
 
-<h3 id="in-depth">In Depth</h3>
+<h3 id="proposed-solution">Proposed Solution</h3>
 
-<p>Since 2021 I’ve been using the Fernfolio web template as my portfolio site, and it’s served me really well in that timeframe. It helped me learn Markdown, version control with Git, and practice CSS while having a mobile-friendly site. It fit the bill between flexibility of design options while being accessible enough from a designer standpoint to define my personal brand and not be gridlocked by the site structure.</p>
-
-<p>While it allowed me to focus more on the portfolio content itself, over the years I began to feel like I was outgrowing the template as my skills improved and the site did not. Some aspects of the page were thoughtfully designed but not necessarily built from the ground up to facilitate the showcasing of my previous works. Rating the site layout, here are my thoughts:</p>
-
-<p><img src="../images/portfolio/desktop-screen-old.png" alt="Previous site design, a desktop size screenshot of the homepage" /></p>
-
-<h4 id="what-i-liked">What I liked:</h4>
-<ol>
-  <li>Easy access to projects from the home page</li>
-  <li>Portfolio projects are easily labeled depending on desired reading depth</li>
-  <li>Markdown for quick site edits</li>
-</ol>
-
-<h4 id="what-i-didnt-like">What I didn’t like:</h4>
-<ol>
-  <li>The colors of the site were dark and not approachable</li>
-  <li>Site does not give visual examples of my best works</li>
-  <li>Reliance on site template whose technologies I did not understand (Nunjucks)</li>
-</ol>
-
-<h4 id="design">Design</h4>
-<p>With all of these factors in consideration, a new design was in order with the goal of a friendlier and more visually expressive UI to highlight my recent experiences. Emphasis was placed on the use of Figma’s Auto Layout and Component tools as those were ones I’d recently learned, and using those to create an aesthetic layout that used visual elements that stood out more. Of note, the color scheme was a point of emphasis due to my previous use of “comfort colors” and a desire to break out a little more from what I would most frequently consider. The general structure was updated, and the article structure is the key feature being migrated from the previous iteration of the site.</p>
-
-<h4 id="development">Development</h4>
-
-<p>Currently, this site is being developed in Jekyll. The site’s homepage is 90% complete, project pages are 50% complete, and the project catalog page is 40% complete. More updates will come as the site nears completion, but progress can be directly followed via the Netlify link:</p>
+<ul>
+  <li>Site remake (Proposed, but not feasible due to lack of resources)</li>
+  <li>Secondary site for promoting materials to end consumers (Proposed and tested via React + Tailwind)</li>
+  <li>Back End restructuring to improve performance and site stability <strong>⟵ What ended up happening</strong></li>
+  <li>Reevaluation of design elements/mobile redesign after refactoring back end</li>
+</ul>
  <!-- .md main contents go here -->
 							</div>
 						</div>	
