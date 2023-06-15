@@ -20,9 +20,10 @@
         }
 
         a {
-            font-weight: 400;
-            color: $link-dark;
-            font-size: $p;
+            font-family: 'DM Serif Display', serif;
+            font-weight: bold;
+            color: $background;
+            font-size: $h4;
         }
     }
 

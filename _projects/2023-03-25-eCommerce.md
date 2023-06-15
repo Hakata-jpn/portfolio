@@ -1,7 +1,7 @@
 ---
 layout: project
 title: eCommerce Design Overhaul
-date: 2021-03-25
+date: 2023-03-25
 confidential: true
 metaDescription: Overhaul of Wholesale eCommerce platform
 summary: Used a previously developed UX Assessment from a lead UX Designer to create new wireframes and update the site experience for users of a $100m+ wholesale eCommerce site.
@@ -9,6 +9,7 @@ attribution: "Image by juicy_fish on Freepik"
 
 # Will be used on the thumbnail and main image.
 thumbnail-img: "../images/ecommerce/mockup-ecommerce.png"
+thumbnail-alt: "low-fidelity mockup of educational non-profit"
 
 # What skills did you use in this project?
 tags:

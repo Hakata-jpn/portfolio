@@ -27,44 +27,22 @@
 		<section class="archive-section">
 			<div class="container d-flex flex-column col-md-10 px-0">
 				<div class="p-0 container">
-					<h2 class="col-lg-10 d-flex w-100">2023</h2>
-                    <hr class="project-line">
 						<div class="col-lg-9 container aboutme-content px-0">
-									{% assign allProjects = site.projects %}
-									{% assign 2023Projects = allProjects %}
-										{% for item in 2023Projects :year => 2023 %}
-											{% include project-card.html project=item %}
-										{% endfor %}
-							<div class="w-100 d-flex justify-content-end">
-						</div>
-					</div>
-				</div>
-                <div class="p-0 container">
-					<h2 class="col-lg-10 d-flex w-100 justify-content-md-end">2022</h2>
-                    <hr class="project-line">
-						<div class="col-lg-9 container aboutme-content px-0">
-
-
-							<div class="w-100 d-flex justify-content-end">
-						</div>
-					</div>
-				</div>
-                <div class="p-0 container">
-					<h2 class="col-lg-10 d-flex w-100">2021</h2>
-                    <hr class="project-line">
-						<div class="col-lg-9 container aboutme-content px-0">
-
-
-							<div class="w-100 d-flex justify-content-end">
-						</div>
-					</div>
-				</div>
-                <div class="p-0 container">
-					<h2 class="col-lg-10 d-flex w-100 justify-content-md-end">2020</h2>
-                    <hr class="project-line">
-						<div class="col-lg-9 container aboutme-content px-0">
-
-
+							{% for post in site.projects reversed %}
+								{% assign currentdate = post.date | date: "%Y" %}
+								{% if currentdate != date %}
+								<h2 id="y{{currentdate}}">{{ currentdate }}</h2>
+								<hr class="project-line">
+								{% assign date = currentdate %}
+							{% endif %}
+								<div>
+									<a href="{{ post.url }}">
+										<img class="img-fluid" src="{{ post.thumbnail-img }}" alt="{{ post.thumbnail-alt }}" >
+									</a>
+									<a href="{{ post.url }}">{{ post.title }}</a>
+									<p class="">{{ post.summary }}</p>
+								</div>
+						  {% endfor %}
 							<div class="w-100 d-flex justify-content-end">
 						</div>
 					</div>
