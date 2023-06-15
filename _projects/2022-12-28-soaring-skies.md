@@ -1,6 +1,7 @@
 ---
 layout: project
 title: KAM Soaring Skies
+date: 2022-12-28
 confidential: false
 metaDescription: Project designing keycaps.
 summary: Designed glossy keyboard parts for mechanical keyboard hobbyists, using visual design and product design skills to ensure successful manufacturing and product usability for an inclusive customer base around the world.

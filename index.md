@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "Blanding Design | Home Page"
+metaDescription: Portfolio Homepage for Ren Blanding's Design website
 introduction: Hi! I'm Ren, UI/UX Designer.
 intro-blurb: Experienced in digital design solutions for non-profits and eCommerce, as well as prior agency experience in the corporate and educational non-profit space.
 contact: I check my messages daily but business hours (CDT) are the best time to contact me. If you have any cool photography projects or keyboards, feel free to share 👀 For business opportunities, collaborations, and more, you can find me here.

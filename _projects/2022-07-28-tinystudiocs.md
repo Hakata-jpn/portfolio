@@ -1,6 +1,7 @@
 ---
 layout: project
 title: TinyStudioCS (Test Site)
+date: 2022-07-28
 confidential: false
 metaDescription: Single page test website to learn web dev and site deployment with NextJS.
 summary: Test of web design agency concept, with a basic branding and programming done in collaboration with a friend using GitHub.

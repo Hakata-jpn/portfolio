@@ -1,6 +1,7 @@
 ---
 layout: project
 title: UX Audit - Murphy's Magic
+date: 2021-08-07
 confidential: false
 metaDescription: Audit performed to identify usability issues with company site and propose fixes
 summary: Month-long analysis of the wholesale e-commerce company for identification of UX problems, as well as potential user demographics for a site redesign and methods to fix website issues. Concluded with the commissioning of back-end code refactoring

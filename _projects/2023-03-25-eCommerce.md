@@ -1,6 +1,7 @@
 ---
 layout: project
 title: eCommerce Design Overhaul
+date: 2021-03-25
 confidential: true
 metaDescription: Overhaul of Wholesale eCommerce platform
 summary: Used a previously developed UX Assessment from a lead UX Designer to create new wireframes and update the site experience for users of a $100m+ wholesale eCommerce site.

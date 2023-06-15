@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Portfolio Site Overhaul
+date: 2023-01-28
 confidential: false
 metaDescription: Redesigning portfolio website to demonstrate learned skills
 summary: Overhaul current portfolio to a more inviting aesthetic using skills learned from previous jobs. Dev implementation was handled by myself to learn the handoff process.

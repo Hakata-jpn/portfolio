@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Find a Dealer - Web Utility
+date: 2021-11-15
 confidential: false
 metaDescription: Web utility design for store
 summary: Web utility designed for wholesale e-commerce stores to link potential customers with dealers they can buy products from.
