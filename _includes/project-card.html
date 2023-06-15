@@ -1,0 +1,5 @@
+<div class="project-item">
+    <img class="img-thumbnail" alt="{{ include.project.thumbnail-alt }}" src="{{ include.project.thumbnail-img }}">
+    <a class="" href="{{ include.project.url }}">{{ include.project.title }}</a>
+    {{include.project.date | date: "%Y"}}
+</div>

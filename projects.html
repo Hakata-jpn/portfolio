@@ -1,5 +1,4 @@
 ---
-~
 ---
 
 <!DOCTYPE html>
@@ -31,8 +30,11 @@
 					<h2 class="col-lg-10 d-flex w-100">2023</h2>
                     <hr class="project-line">
 						<div class="col-lg-9 container aboutme-content px-0">
-
-
+									{% assign allProjects = site.projects %}
+									{% assign 2023Projects = allProjects %}
+										{% for item in 2023Projects :year => 2023 %}
+											{% include project-card.html project=item %}
+										{% endfor %}
 							<div class="w-100 d-flex justify-content-end">
 						</div>
 					</div>
