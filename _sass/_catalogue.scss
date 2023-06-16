@@ -45,6 +45,7 @@
 
     @media only screen and (min-width: 768px) {
         .archive-section {
+
             .project-div {
                 align-items: center;
                 padding: 1em 0;
@@ -58,6 +59,19 @@
             .side-project-div {
                 max-width: 50%;
                 margin: .5rem;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 992px) {
+        .archive-section {
+            a {
+                font-size: $h3--desktop;
+                padding-bottom: .5rem;
+            }
+
+            p {
+                font-size: $p-large--desktop;
             }
         }
     }

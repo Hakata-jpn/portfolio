@@ -1,5 +1,6 @@
 .home-container {
     background-color: $background;
+    scroll-margin-top: 50px;
 
     h1 {
         font-size: $h1;
@@ -39,6 +40,7 @@
     .aboutme-section {
         background-color: $darker-green;
         padding: 2rem 1rem 2rem 1rem;
+        scroll-margin-top: 50px;
 
         h2, h3 {
             color: $background;
@@ -142,7 +144,13 @@
          // Media Queries for About Me Section
 
          @media only screen and (min-width: 768px) {
+            .home-container, .aboutme-section {
+                scroll-margin-top: 68px;
+            }
+
+
             .aboutme-section {
+
                 .icon-img {
                     max-width: 36px;
                     margin-right: 0;
@@ -214,7 +222,12 @@
                  font-size: $p-large--desktop;
              }
 
+             .home-container, .aboutme-section {
+                scroll-margin-top: 90px;
+             }
+
              .aboutme-section {
+
                 .icon-img {
                     max-width: 64px;
                     margin-right: 0;

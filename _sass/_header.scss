@@ -16,7 +16,7 @@
         color: $link-light;
     }
 
-    li a {
+    .nav-link {
         font-family: "Figtree", serif;
         font-weight: 700;
         font-size: $h6;
@@ -47,9 +47,10 @@
             font-size: $h2--desktop;
         }
 
-        li a {
+        .nav-link {
             font-size: $h5--desktop;
         }
+        
     }
 }
 
