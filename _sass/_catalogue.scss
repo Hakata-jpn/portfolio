@@ -27,6 +27,10 @@
             font-size: $h3;
         }
 
+        .project-div {
+            flex-direction: column;
+        }
+
         .side-image {
             max-width: 100%;
         }
@@ -49,6 +53,16 @@
             .project-div {
                 align-items: center;
                 padding: 1em 0;
+                flex-direction: row;
+            }
+
+            .project-div:nth-child(2n) {
+                flex-direction: row-reverse;
+
+                a img {
+                    margin-right: 0rem;
+                    margin-left: 1rem;
+                }
             }
 
             .project-image {
