@@ -1,6 +1,21 @@
 .catalog-container {
     background-color: $background;
 
+    .intro-blurb {
+        background-color: white;
+        border-radius: .5rem;
+        padding: .75rem;
+        box-shadow: $light--shadow;
+    }
+
+    .intro-blurb p {
+        margin-bottom: .5rem;
+    }
+
+    .intro-blurb a {
+        text-align: right;
+    }
+
     .introduction {
         padding: 2rem 0;
     }
