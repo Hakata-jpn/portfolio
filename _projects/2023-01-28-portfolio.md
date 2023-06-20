@@ -54,4 +54,4 @@ With all of these factors in consideration, a new design was in order with the g
 
 #### Development
 
-Currently, this site is being developed in Jekyll. The site's homepage is 90% complete, project pages are 50% complete, and the project catalog page is 40% complete. More updates will come as the site nears completion, but progress can be directly followed via the Netlify link:
+Currently, this site is being developed in Jekyll. The site's homepage is 98% complete and currently live over my old portfolio.
