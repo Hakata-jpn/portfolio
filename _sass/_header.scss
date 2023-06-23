@@ -76,6 +76,12 @@
         .nav-link {
             font-size: $h5--desktop;
         }
+
+        .navbar-brand:hover {
+            color: $darker-green;
+            font-size: calc($h2--desktop + .1rem);
+            transition: 200ms;
+        }
         
     }
 }
