@@ -40,6 +40,17 @@
             font-weight: bold;
             color: $background;
             font-size: $h3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: $link-dark;
+        }
+
+        a img:hover {
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
         }
 
         .project-div {
