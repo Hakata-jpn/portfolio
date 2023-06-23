@@ -73,6 +73,10 @@
         color: $link-light;
     }
 
+    .intro-blurb a:hover {
+        color: $link-dark;
+    }
+
     .custom-btn, .custom-btn a {
         background-color: $yell-orange !important;
         color: $darkest-green !important;
@@ -242,6 +246,7 @@
             }
 
             .aboutme-section {
+                height: 95vh;
 
                 .icon-img {
                     max-width: 36px;
@@ -264,7 +269,7 @@
             
             .contact-section {
                 padding-bottom: 5rem;
-                height: 75vh;
+                height: 90vh;
                 display: flex;
                 align-items: center;
 
@@ -343,7 +348,7 @@
 
              .contact-section {
                 padding: 12rem 0 12rem 0;
-                height: auto;
+                height: 90vh;
 
                 .contact-item {
                     padding: 1rem 1rem;
