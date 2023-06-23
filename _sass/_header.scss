@@ -15,6 +15,12 @@
         font-weight: 400;
         font-size: $h3;
     }
+
+    .navbar-brand:hover {
+        color: $darker-green;
+        font-size: calc($h3 + .1rem);
+        transition: 200ms;
+    }
     
     .nav-link:hover {
         color: $link-light;
