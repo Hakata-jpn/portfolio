@@ -39,29 +39,27 @@
           Blanding Design
         </a>
       </div>
-      <div class="col-2 d-flex d-md-none justify-content-end">
+      <div class="col-2 d-flex d-md-none justify-content-end" id="hamburger-menu">
         <!-- TODO: Change hamburger icon to close when active-->
-        <button class="navbar-toggler btn shadow-none" type="button" aria-label="Toggle navigation" id="hamburger-menu" onclick="toggleDiv()">
+        <button class="navbar-toggler btn shadow-none" type="button" aria-label="Toggle navigation">
         <span class="fa-solid fa-bars fa-lg"></span>
       </button>
       </div>
-      <div class="col-12 col-md-8">
-        <div class="collapse navbar-collapse" id="navbar-toggle">
+      <div class="col-12 col-md-8 invisible" id="navbar-toggle">
           <ul class="navbar-nav w-100 d-flex justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active px-md-4" aria-current="page" href="/#home" onclick="Collapse()">Home</a>
+              <a class="nav-link active px-md-4" aria-current="page" href="/#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active px-md-4" aria-current="page" href="/projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="test nav-link active px-md-4" aria-current="page" href="/#aboutme" onclick="Collapse()">About Me</a>
+              <a class="test nav-link active px-md-4" aria-current="page" href="/#aboutme">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-md-4" aria-current="page" href="/#contact" onclick="Collapse()">Contact</a>
+              <a class="nav-link px-md-4" aria-current="page" href="/#contact">Contact</a>
             </li>
           </ul>
-        </div>
       </div>
     </div>
   </div>
@@ -143,7 +141,8 @@
     <p class="text-center">Designed in Figma and Programmed by yours truly! 🙂</p>
 </footer>
 
-<script src="script.js"></script>
+<!-- header script -->
+<script src="/script.js"></script>
 	</body>
 </html>
 
