@@ -102,7 +102,7 @@
 								
 								<h3>What I learned</h3>
 								<ul class="learned-list-group">
-									<li class="learned-list">The direct link between design work in Figma and web dev</li><li class="learned-list">How to translate columns on wireframes to bootstrap columns</li><li class="learned-list">What Sass does to augment CSS, and how to scope for styles within Sass files</li><li class="learned-list">How to deploy a site and use markdown to generate new articles</li><li class="learned-list">How to evaluate a site and overhaul its visuals + user experience</li>
+									<li class="learned-list">The direct link between design work in Figma and web dev</li><li class="learned-list">How to translate columns on wireframes to bootstrap columns</li><li class="learned-list">What Sass does to augment CSS, and how to scope for styles within Sass files</li><li class="learned-list">How to deploy a site and use markdown to generate new articles</li><li class="learned-list">How to evaluate a site and overhaul its visuals + user experience</li><li class="learned-list">Flexbox and how that works within Auto-Layout</li><li class="learned-list">How JS interacts with objects in the DOM</li>
 								</ul>
 								<h4 id="project-links">Project Links</h4>
 <ul>
@@ -137,7 +137,30 @@
 
 <h4 id="development">Development</h4>
 
-<p>Currently, this site is being developed in Jekyll. The site’s homepage is 98% complete and currently live over my old portfolio.</p>
+<p>The site was developed using a mix of Jekyll and Bootstrap, with additional styling and interactions using a combination of Sass and vanilla Javascript. The process took approximately three weeks and was a considerable challenge for me as someone who had some experience with web development but never made a full-service website at this scale. Some aspects of the Figma design made the development process incredibly simple, such as the use of style variables that were easily transferred to Sass variables and limiting spacing on the design to revolve around the base pixel size of 16. Auto Layout was immensely helpful in being able to recreate designs within the box model, and truly leveled up my understanding of flexbox with how easy it made understanding the layout of nested divs.</p>
+
+<p>One interesting consideration that became a difficult constraint throughout the project was the difference between breakpoints in Figma and in Web development. While Auto-layout does make working within moving breakpoints a lot easier, it also took a lot more effort to ensure a consistent design across multiple screen sizes and browsers. One side effect of this was a design pattern that was unable to translate across devices, a div sandwiched between and on top of two divs in the HTML, as spacing the text blurb between the two colored areas was not something I could make consistent across all screen sizes.</p>
+
+<p><img src="../images/portfolio/comparison-web.png" alt="Comparison of Figma Design and HTML code on live site, stacked divs missing from the HTML document" /></p>
+<blockquote>
+  <p>This might have taken three hours of my time and numerous tries, but I learned a lot about document flow and positioning so it was well worth it.</p>
+</blockquote>
+
+<p>Being a static site generator, Jekyll made the process of creating the portfolio contents rather simple and allowed for component creation in a manner similar to but simpler than React. Structurally, all of my project articles are written in markdown and placed in a designated project folder which is built into HTML pages when I commit my changes to GitHub and Netlify builds the site. It also allowed a smooth transfer of my old markdown files from my old portfolio site to this one, with some adjustments made to the front matter to improve the templating of the site. This allowed for some modularity in the project article, including:</p>
+<ul>
+  <li>Thumbnail images with alt text</li>
+  <li>Toggles for image attribution</li>
+  <li>Toggles for projects with limited info due to confidentiality</li>
+  <li>Project tags</li>
+  <li>A “What I learned” section built into the page structure</li>
+</ul>
+
+<p>And the document looks like the image below, with the body content of the page outside of the front matter for easy writing.
+<img src="../images/portfolio/markdown-example.png" alt="Example of markdown document, with front matter " /></p>
+
+<p>The front matter was incredibly helpful for calling data across the site, as every part of the site could access any of the articles I’d written in a procedural manner. This allows me the ease of mind to simply write new content in Markdown and commit it to the site without worrying about having to adjust the code to highlight new content. While this did exist in my previous site, the biggest difference was that I knew the structure because I had built it myself and could change the design if desired.</p>
+
+<p>The biggest challenge of the project was a lesson learned with bootstrap. While my time with Bootstrap was simplified by designing the wireframes into the 12 column structure it uses, I learned the hard way about how opinionated the styling can be. I had to use <code class="language-plaintext highlighter-rouge">!important</code> a few times to overwrite bootstrap styles (which is not great), and while I used their initial navbar HTML template for the site, some issues with the implementation forced me to decouple the navbar from bootstrap and recreate it in Vanilla JS. Because my site is mostly a single page app, my nav links were anchor tags, which would cause the mobile bootstrap nav to navigate to the anchor but not collapse the hamburger menu and be in the way of the user’s view of my page. While it was a bug you could fix very easily by closing the header, users should not be forced to take extra steps to access such a simple site. I spent hours on this bug with a friend trying to help me use asynchronous functions to make the header work with the existing bootstrap JS scripts. Eventually, we realized that it wasn’t going to work very well and I developed a js script to fix the bug. Using vanilla JS, it was very simple to add an event listener to the nav links and get the hamburger menu to collapse if clicked on with a mobile device. It also made it really easy to add a tablet breakpoint so users would not have a disappearing nav on larger screens. I had a lot of fun trying to fix this with vanilla JS as it taught me more about how JS and the DOM work which was really hard to grasp for the longest time.</p>
  <!-- .md main contents go here -->
 							</div>
 						</div>	
