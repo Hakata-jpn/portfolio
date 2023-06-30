@@ -39,7 +39,8 @@ Since 2021 I've been using the Fernfolio web template as my portfolio site, and 
 
 While it allowed me to focus more on the portfolio content itself, over the years I began to feel like I was outgrowing the template as my skills improved and the site did not. Some aspects of the page were thoughtfully designed but not necessarily built from the ground up to facilitate the showcasing of my previous works. Rating the site layout, here are my thoughts: 
 
-![Previous site design, a desktop size screenshot of the homepage](../images/portfolio/desktop-screen-old.png)
+![Previous site design, a desktop size screenshot of the homepage](../images/portfolio/portfolio-screen-old.png)
+> This is an example of the previous template site I used.
 
 #### What I liked:
 1. Easy access to projects from the home page
