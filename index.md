@@ -3,7 +3,7 @@ layout: home
 title: "Blanding Design | Home Page"
 metaDescription: Portfolio Homepage for Ren Blanding's Design website
 introduction: Hi! I'm Ren, UI/UX Designer.
-intro-blurb: Professional problem-solver for non-profits and eCommerce clients in corporate and educational environments. Currently working for Keurig Dr Pepper.
+intro-blurb: Professional design systems builder for non-profits and eCommerce clients in corporate and educational environments. Currently working for Keurig Dr Pepper.
 contact: I check my messages daily but business hours (Central Time) are the best time to contact me. If you have any cool photography projects or keyboards, feel free to share 👀 For business opportunities, collaborations, and more, you can find me here.
 ---
 
