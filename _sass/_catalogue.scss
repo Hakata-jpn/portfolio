@@ -23,12 +23,10 @@
     .archive-section {
         background-color: $darker-green;
         color: $background;
-        padding: 0rem 1rem 2rem 1rem;
+        padding: 2rem 1rem;
 
         h2, h3 {
             color: $background;
-            padding-top: 2rem;
-            margin-bottom: 1rem;
         }
 
         p {
@@ -105,7 +103,7 @@
 
     @media only screen and (min-width: 992px) {
         .archive-section {
-            a {
+            h3 {
                 font-size: $h3--desktop;
                 padding-bottom: .5rem;
             }

@@ -6,17 +6,14 @@
     h1 {
         font-size: $h1;
         color: $brown;
-        margin-bottom: .25rem;
     }
 
     h2.highlights {
         padding: .5rem 0 0 0rem;
-        margin-bottom: 0;
     }
 
     h4 {
         color: $background;
-        padding: 1rem 0;
     }
 
     .home-container {
@@ -97,9 +94,10 @@
         scroll-margin-top: 200px;
         height: 100%;
 
-        h2, h3 {
+        h2, h3, h4 {
             color: $background;
-            margin-bottom: 1rem;
+            text-align: center;
+
         }
 
         p {
@@ -246,7 +244,6 @@
             }
 
             .aboutme-section {
-                height: 98vh;
 
                 .icon-img {
                     max-width: 36px;
@@ -264,6 +261,10 @@
     
                 .aboutme-content {
                     padding-bottom: 3rem;
+                }
+
+                .aboutme-content a {
+                    margin-top: 1.5em;
                 }
             }
             

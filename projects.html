@@ -16,7 +16,7 @@
 					<div class="introduction col-10 col-md-8 col-lg-6 px-0">
 						<h1 class="text-center">Project Catalogue</h1>
 						<div class="intro-blurb">
-							<p>A list of projects I’ve worked on as a designer from newest to oldest. Side projects are included at the bottom as well! ;)</p>
+							<p>A list of projects I’ve worked on as a designer from newest to oldest. Side projects are included at the bottom.</p>
 						</div>
 					</div>
 				</div>
@@ -32,7 +32,7 @@
 								{% assign currentdate = post.date | date: "%Y" %}
 								{% if currentdate != date %}
 								<h2 id="y{{currentdate}}">{{ currentdate }}</h2>
-								<hr clagiss="project-line">
+								<hr class="project-line">
 								{% assign date = currentdate %}
 							{% endif %}
 								<div class="d-flex project-div">
@@ -40,7 +40,7 @@
 										<img class="img-fluid" src="{{ post.thumbnail-img }}" alt="{{ post.thumbnail-alt }}" >
 									</a>
 									<div class="project-text">
-										<a href="{{ post.url }}">{{ post.title }}</a>
+										<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
 										<p class="text-description">{{ post.summary }}</p>
 									</div>
 								</div>
@@ -51,7 +51,7 @@
 				</div>
                 <div class="p-0 container d-flex flex-column w-100">
 					<div class="row justify-content-center">
-						<h3 class="text-center">Side Projects!</h3>
+						<h3 class="text-center">Side Projects</h3>
                     	<hr class="project-line">
 						<div class="col-lg-10 d-flex flex-column flex-md-row justify-content-md-center">
 							<div class="d-flex flex-column side-project-div">

@@ -14,57 +14,88 @@
     
     a {
         font-weight: bold;
+        padding-bottom: .75rem;
+        margin-bottom: 0;
+    }
+
+    p {
+        padding-bottom: .75rem;
+        margin-bottom: 0;
     }
     
     h1 {
         font-size: $h1;
+        padding-bottom: 1.25rem;
+        margin-bottom: 0;
     }
     
     h2 {
         font-size: $h2;
+        padding-bottom: 1.25rem;
+        margin-bottom: 0;
     
     }
     
     h3 {
         font-size: $h3;
+        padding-bottom: .75rem;
+        margin-bottom: 0;
     }
     
     h4 {
         font-size: $h4;
+        padding-bottom: .75rem;
+        margin-bottom: 0;
     }
     
     h5 {
         font-size: $h5;
+        padding-bottom: .5rem;
+        margin-bottom: 0;
     }
     
     h6 {
         font-size: $h6;
+        padding-bottom: .5rem;
+        margin-bottom: 0;
     }
     
     @media only screen and (min-width: 992px) {
         h1 {
             font-size: $h1--desktop;
+            padding-bottom: 2rem;
+            margin-bottom: 0;
         }
         
         h2 {
             font-size: $h2--desktop;
+            padding-bottom: 2rem;
+            margin-bottom: 0;
         
         }
         
         h3 {
             font-size: $h3--desktop;
+            padding-bottom: 1.5rem;
+            margin-bottom: 0;
         }
         
         h4 {
             font-size: $h4--desktop;
+            padding-bottom: 1.5rem;
+            margin-bottom: 0;
         }
         
         h5 {
             font-size: $h5--desktop;
+            padding-bottom: 1rem;
+            margin-bottom: 0;
         }
         
         h6 {
             font-size: $h6--desktop;
+            padding-bottom: 1rem;
+            margin-bottom: 0;
         }
       }
 }

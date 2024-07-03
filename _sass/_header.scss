@@ -71,10 +71,12 @@
 
         .navbar-brand {
             font-size: $h2--desktop;
+            padding: 0;
         }
 
         .nav-link {
             font-size: $h5--desktop;
+            padding: 0;
         }
 
         .navbar-brand:hover {
