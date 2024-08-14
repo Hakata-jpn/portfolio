@@ -21,7 +21,7 @@ tags:
 # What did you learn in the process of completing this project?
 learned:
   - How to design UI for tablet-sized screens, especially those are not standard to app/web design
-  - Intersetion between digital UX/UI and physical product design
+  - Intersection between digital UX/UI and physical product design
   - How to hand off animations to developers
   - How to do user testing on a commercial product
 ---
